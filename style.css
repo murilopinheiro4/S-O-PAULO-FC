@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-size: 20px;
+}
+
+header{
+    background-color: rgb(43, 39, 39);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+footer{
+    background-color: rgb(31, 26, 26);
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
